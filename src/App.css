@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.information{
+  display: grid;
+  
+
+  grid-template-columns:1000px auto;
+  height: 400px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-info{
+  margin-top: 10px;
+  /* border: #F53838 solid; */
+
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bold-text{
+  margin-top: 10rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 200px;
+  line-height: 2rem;
+  margin-right: 200px;
+  text-shadow: 7px 6px 1px #CCCCCC
+
+}
+.details{
+  margin-top: 2rem;
+   margin-left: 200px;
+  line-height: 2rem;
+  margin-right: 200px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: sans-serif;
+  color: #4F5665;
+
+}
+
+
+/* CSS */
+.btn-jobBoard {
+  background: #F53838;
+
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 195px;
+  margin-right: 200px;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 180px;
+  word-break: break-word;
+  border: 0;
+}
+.right-info{
+  /* border: #5E5DF0 solid; */
+  margin-top: 10px;
+  margin-left: 2rem;
+  
+
+}
+
+.notifications{
+  background-color: #f9f9ff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 2rem;
+  /* border: #4F5665 solid; */
+  margin:2rem;
+  justify-content: space-evenly;
+  border-radius: 2rem;
+
+}
+
+.count .btn{
+  padding: 1rem;
+  border: none;
+  background-color: #f9f9ff;
+
+
+}
+.count :hover{
+     background-color:rgb(245, 245, 245);
+      box-shadow: 0 12px 16px 0 rgba(58, 58, 58, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      border-radius: 1rem;
+      cursor: pointer;
+}
+
+.count .notifications-count{
+  font-size: 1.5rem;
+  font-weight: bolder
+}
+.h3-text{
+  font-size: 1rem ;
+  font-weight: 100px;
+}
+
+.features{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 300px;
+  margin: 2rem;
+}
+.features .left-icon{
+  /* border: #4F5665 solid; */
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
+}
+.features .features-info{
+  text-align: center;
+
+  /* border: #0f55eb solid; */
+ 
+}
+.feature-heading{
+  margin-top: 4rem;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family:Rubik;
+ 
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.features .features-info ul{
+  list-style: none;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  line-height: 2rem;
+  font-family: Rubik;
+  color: #4F5665;
 }
