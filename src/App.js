@@ -5,6 +5,7 @@ import info from './components/Information/info';
 import icon from './icon1.jpg';
 import icon2 from "./Saly-11.png";
 
+// Style sheet
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 function App() {
