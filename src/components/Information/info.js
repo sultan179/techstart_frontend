@@ -7,17 +7,19 @@ function Info() {
     <Fragment>
       <div className="information">
         <div className="left-info">
-          <div className="bold-text">
-            Finding research positions doesn’t have to be HARD.
+          <div className="left-info-inner-cont">
+            <div className="bold-text">
+              Finding research positions doesn’t have to be HARD.
+            </div>
+            <p className="details">
+              A website for all your research needs with ease and fun using
+              Explore discover interesting research from all sorts of UofC
+              professors.
+            </p>
+            <button className="btn-jobBoard">Job Board</button>
           </div>
-          <p className="details">
-            A website for all your research needs with ease and fun using
-            Explore discover interesting research from all sorts of UofC
-            professors.
-          </p>
-          <button className="btn-jobBoard">Job Board</button>
         </div>
-        <div className="right-info">
+        <div className="right-info text-center">
           <img src={icon} alt="icon" className="bg-image" />
         </div>
       </div>
