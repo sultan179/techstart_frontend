@@ -1,15 +1,21 @@
+.NavContainer{
+    background-color: #f9f9ff;
+    /* padding: 0 80px; */
+}
+
 .NavbarItems{
-   background-color: #f9f9ff;;
     height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size:1rem;
-    /* border: solid orange; */
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: orange; */
 }
 .Navbar-logo{
     justify-content: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
 
 }
@@ -21,18 +27,10 @@
 
 .menu{
     display: grid;
-    grid-template-columns: repeat(7,auto);
+    grid-template-columns: repeat(5,auto);
     list-style: none;
-    grid-gap: 10px;
+    grid-gap: 20px;
     text-align: center;
-    width: 70vw; 
-    justify-content:end;
-    margin-right: 2rem;
-    grid-column-gap: 40px;
-    
-   
-    
-    
 }
 
 
@@ -53,7 +51,7 @@
 
 .btn-Sign-in{
     text-decoration: none;
-    margin-left: auto;
+    /* margin-left: auto; */
     color: black;
     font-weight: bold;
     font-family: Rubik;
@@ -66,8 +64,8 @@
 
 .btn-Sign-up{
     text-decoration: none;
-    margin-right: 50px;
-    margin-left: 25px;
+    /* margin-right: 50px;
+    margin-left: 25px; */
     color: red;
     border:solid red;
     border-width:0.1rem;
@@ -75,9 +73,9 @@
     font-weight: bold;
     background-color:rgb(250, 250, 250); 
     transition-duration: 0.4s;
-    
     font-family: Rubik;
     font-size: 1rem;
+    margin-left: 20px;
 }
 .btn-Sign-up:hover{
     background-color: aliceblue;
